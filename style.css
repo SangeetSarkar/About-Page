@@ -14,22 +14,21 @@ body{
 }
 
 .header{
-    margin-top:100px;
+    margin-top:.8em;
     text-align: center;
-    font-size: 40px;
+    font-size: 4em;
     width: 100%;
-    height:50px;
-    /* background-color: red; */
 }
 .line{
-    text-align: center;
+    display: flex;
+    justify-content: center;
     margin-top: 10px;
     font-size: 1em;
-    /* background-color: red; */
 }
 
 .content{
     display: flex;
+    justify-content: center;
     width: 100%;
     flex-direction: row;
     margin: 4em;
@@ -39,8 +38,6 @@ body{
     border-radius: 5%;
     width: 40em;
     height:30em;
-    /* margin:3em; */
-    margin-left:15em;
 }
 
 .container{
@@ -48,7 +45,6 @@ body{
     flex-direction: column;
     width:45em;
     height:30em;
-    background-color: red;
     margin-left:3em;
     border-radius: 20px;
 }
@@ -58,7 +54,6 @@ body{
     flex-direction: row;
     width:100%;
     height:10%;
-    /* justify-content: space-between; */
 }
 
 .history,.vision,.goals{
@@ -84,7 +79,6 @@ body{
     height: 90%;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
-    /* background-color: yellow; */
     border: 2px solid black;
     padding:12px;
 }
